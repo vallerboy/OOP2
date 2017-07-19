@@ -8,8 +8,9 @@ public class Lecturer extends Employee implements IWebinars{
 
     @Override
     public void getVoice() {
-        System.out.println("Uczcie się uczcie! Nauka to do potęgi klucz!");
+
     }
+
 
     @Override
     public void connectMicrophone() {

@@ -18,6 +18,6 @@ public class Main {
         irek.connectMicrophone();
         irek.startRecording();
 
-        IWebinars[] personWhoCanDoWebinars = {irek};
+
     }
 }

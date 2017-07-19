@@ -1,7 +1,7 @@
 /**
  * Created by Lenovo on 18.07.2017.
  */
-public class Employee {
+public abstract class Employee {
     private String name;
     private String id;
     private int salary;
@@ -36,7 +36,5 @@ public class Employee {
         this.id = id;
     }
 
-    public void getVoice() {
-        System.out.println("Głooos szarego praaacownika");
-    }
+    public abstract void getVoice();
 }
